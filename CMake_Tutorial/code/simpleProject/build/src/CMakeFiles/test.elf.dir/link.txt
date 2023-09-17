@@ -1,0 +1,1 @@
+/home/pldz/aarch64/bin/aarch64-linux-gnu-gcc   -rdynamic CMakeFiles/test.elf.dir/main.c.o  -o ../test.elf  ../../libs/libdeccov.a ../../libs/libhexcov.a ../../libs/liboctcov.a -lm 

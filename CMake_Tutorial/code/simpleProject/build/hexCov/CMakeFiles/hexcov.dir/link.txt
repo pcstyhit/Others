@@ -1,0 +1,2 @@
+/home/pldz/aarch64/bin/aarch64-linux-gnu-ar qc ../../libs/libhexcov.a  CMakeFiles/hexcov.dir/src/hexCov.c.o
+/home/pldz/aarch64/bin/aarch64-linux-gnu-ranlib ../../libs/libhexcov.a

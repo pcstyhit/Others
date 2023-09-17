@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../decCov/include/dec2bin.h
+stdio.h
+-
+
+../decCov/include/dec2hex.h
+stdio.h
+-
+
+../decCov/include/dec2oct.h
+stdio.h
+-
+
+../decCov/include/decCov.h
+stdio.h
+-
+
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/decCov/src/decCov.c
+stdio.h
+-
+decCov.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/decCov/src/decCov.h
+dec2bin.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/decCov/src/dec2bin.h
+dec2hex.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/decCov/src/dec2hex.h
+dec2oct.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/decCov/src/dec2oct.h
+

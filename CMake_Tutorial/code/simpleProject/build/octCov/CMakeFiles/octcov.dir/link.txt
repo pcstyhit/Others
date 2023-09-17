@@ -1,0 +1,2 @@
+/home/pldz/aarch64/bin/aarch64-linux-gnu-ar qc ../../libs/liboctcov.a  CMakeFiles/octcov.dir/src/octCov.c.o
+/home/pldz/aarch64/bin/aarch64-linux-gnu-ranlib ../../libs/liboctcov.a

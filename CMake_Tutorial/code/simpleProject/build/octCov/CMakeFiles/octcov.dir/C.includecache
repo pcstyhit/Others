@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../octCov/include/oct2bin.h
+stdio.h
+-
+math.h
+-
+
+../octCov/include/oct2dec.h
+stdio.h
+-
+math.h
+-
+
+../octCov/include/oct2hex.h
+stdio.h
+-
+math.h
+-
+
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/octCov/src/octCov.c
+stdio.h
+-
+oct2bin.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/octCov/src/oct2bin.h
+oct2dec.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/octCov/src/oct2dec.h
+oct2hex.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/octCov/src/oct2hex.h
+

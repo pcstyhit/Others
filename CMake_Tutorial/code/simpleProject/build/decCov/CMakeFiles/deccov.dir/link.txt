@@ -1,0 +1,2 @@
+/home/pldz/aarch64/bin/aarch64-linux-gnu-ar qc ../../libs/libdeccov.a  CMakeFiles/deccov.dir/src/decCov.c.o
+/home/pldz/aarch64/bin/aarch64-linux-gnu-ranlib ../../libs/libdeccov.a

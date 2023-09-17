@@ -1,0 +1,2 @@
+/home/pldz/share/Temp/cmakeTest/simpleGCC/CMakeFiles/rebuild_cache.dir
+/home/pldz/share/Temp/cmakeTest/simpleGCC/CMakeFiles/edit_cache.dir

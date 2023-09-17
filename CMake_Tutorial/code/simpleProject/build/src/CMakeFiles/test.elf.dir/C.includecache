@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../decCov/include/decCov.h
+stdio.h
+-
+
+../hexCov/include/hexCov.h
+stdio.h
+-
+
+../octCov/include/octCov.h
+stdio.h
+-
+
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/src/main.c
+stdio.h
+-
+hexCov.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/src/hexCov.h
+decCov.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/src/decCov.h
+octCov.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/src/octCov.h
+

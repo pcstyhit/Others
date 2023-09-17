@@ -1,0 +1,14 @@
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/CMakeFiles/rebuild_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/CMakeFiles/edit_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/decCov/CMakeFiles/rebuild_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/decCov/CMakeFiles/edit_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/decCov/CMakeFiles/deccov.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/hexCov/CMakeFiles/rebuild_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/hexCov/CMakeFiles/edit_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/hexCov/CMakeFiles/hexcov.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/octCov/CMakeFiles/rebuild_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/octCov/CMakeFiles/edit_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/octCov/CMakeFiles/octcov.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/src/CMakeFiles/rebuild_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/src/CMakeFiles/edit_cache.dir
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/build/src/CMakeFiles/test.elf.dir

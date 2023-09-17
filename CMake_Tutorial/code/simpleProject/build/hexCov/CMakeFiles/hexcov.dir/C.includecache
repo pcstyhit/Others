@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../hexCov/include/hex2bin.h
+stdio.h
+-
+stdlib.h
+-
+
+../hexCov/include/hex2dec.h
+stdlib.h
+-
+
+../hexCov/include/hex2otc.h
+stdio.h
+-
+
+../hexCov/include/hexCov.h
+stdio.h
+-
+
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/hexCov/src/hexCov.c
+hex2bin.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/hexCov/src/hex2bin.h
+hex2dec.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/hexCov/src/hex2dec.h
+hex2otc.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/hexCov/src/hex2otc.h
+hexCov.h
+/home/pldz/share/Others/CMake_Tutorial/code/simpleProject/hexCov/src/hexCov.h
+
