@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>代理配置</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="section">
+      <input type="checkbox" id="proxy-toggle" name="proxy-toggle" />
+      <label for="proxy-toggle">手动配置代理: </label>
+    </div>
+
+    <div class="section">
+      <label class="label-block" for="http-proxy">HTTP 代理</label>
+      <div class="input-group">
+        <input type="text" id="http-proxy" placeholder="" disabled />
+        <span class="port-label">端口</span>
+        <input
+          type="number"
+          id="http-port"
+          placeholder=""
+          style="width: 60px"
+          disabled
+        />
+      </div>
+      <div class="input-group">
+        <input type="checkbox" id="use-for-https" disabled />
+        <label for="use-for-https">也将此代理用于 HTTPS</label>
+      </div>
+    </div>
+
+    <div class="section">
+      <label class="label-block" for="https-proxy">HTTPS Proxy</label>
+      <div class="input-group">
+        <input type="text" id="https-proxy" placeholder="" disabled />
+        <span class="port-label">端口</span>
+        <input
+          type="number"
+          id="https-port"
+          placeholder=""
+          style="width: 60px"
+          disabled
+        />
+      </div>
+    </div>
+
+    <div class="section">
+      <label class="label-block" for="socks-host">SOCKS 主机</label>
+      <div class="input-group">
+        <input type="text" id="socks-host" placeholder="" disabled />
+        <span class="port-label">端口</span>
+        <input
+          type="number"
+          id="socks-port"
+          placeholder=""
+          style="width: 60px"
+          disabled
+        />
+      </div>
+      <div class="input-group">
+        <input type="radio" name="socks-version" id="socks-v4" disabled />
+        <label for="socks-v4">SOCKS v4</label>
+        <input
+          type="radio"
+          name="socks-version"
+          id="socks-v5"
+          checked
+          disabled
+        />
+        <label for="socks-v5">SOCKS v5</label>
+      </div>
+    </div>
+
+    <div class="section">
+      <label class="label-block" for="bypass-list">不使用代理列表</label>
+      <textarea
+        id="bypass-list"
+        class="bypass-list"
+        placeholder="127.0.0.1/8"
+        disabled
+      ></textarea>
+    </div>
+
+    <div class="example">
+      例如：.mozilla.org, .net.nz, 192.168.1.0/24
+      <br />与 localhost，127.0.0.1/8 和 ::1 的连接永不过经过代理。
+    </div>
+
+    <div class="section">
+      <button id="apply-button">确定</button>
+      <button id="cancel-button">取消</button>
+    </div>
+
+    <script src="./modules/popup.js"></script>
+  </body>
+</html>

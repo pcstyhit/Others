@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 320px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.label-block {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"] {
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.input-group .port-label {
+  margin-left: 5px;
+  white-space: nowrap;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+  margin-top: 0;
+}
+
+#reload {
+  margin-top: 5px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.example {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+  user-select: none;
+}
+
+.disabled {
+  opacity: 0.5;
+}
