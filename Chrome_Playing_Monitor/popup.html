@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Tabs Checker</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+    }
+    #tabs {
+      margin-top: 10px;
+    }
+    .tab {
+      height: fit-content;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 5px 0;
+      padding: 5px;
+      border-bottom: 1px solid #ccc;
+    }
+    .tab-info {
+      width: 75%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .switch {
+      width: 25%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+      cursor: pointer;
+      background-color: #ccc;
+      transition: .4s;
+      border-radius: 20px;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 14px;
+      width: 14px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    input:checked + .slider:before {
+      transform: translateX(20px);
+    }
+    input:disabled + .slider {
+      background-color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Music Tabs Checker</h1>
+  <div id="tabs">
+    <p>Loading...</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
