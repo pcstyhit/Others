@@ -37,6 +37,10 @@ function checkMediaPlaybackAndResume() {
         media.play();
         resumed = true;
       }
+      const mask = document.querySelector(".bili-mini-mask");
+      if (mask.style.display !== "none") {
+        mask.style.display = "none";
+      }
     }
     return resumed ? "Paused - Resumed" : "Playing";
   } catch (error) {
@@ -55,4 +59,3 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 // 设置间隔1秒执行一次
 setInterval(checkAllTabs, 1000);
-
